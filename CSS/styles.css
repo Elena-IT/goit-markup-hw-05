@@ -48,6 +48,7 @@ list-style-type: none;
 
 .contact-list-item {
   margin-right: 30px;
+  padding-bottom: 9px;
 }
 .site-nav .contact-list-item:last-child {
   margin-right: 0;
@@ -211,6 +212,7 @@ color: #212121;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    border: none;
   }
 
    .hero-button-text {
@@ -590,6 +592,12 @@ color: #212121;
 .client-icon .client-icon-svg {
    fill:#AFB1B8;
 }
+.client-icon:last-child {
+  margin-right: 0px;
+}
+.client-icon {
+  margin-right: 30px;
+}
 
 .client-icon-svg:hover,
 .client-icon-svg {
@@ -712,6 +720,7 @@ margin-bottom: 95px;
   .address-div {
   background: #2F303A;
   padding-right: 60px;
+  
   }
   .footer-logo {
     padding-left: 
@@ -719,8 +728,10 @@ margin-bottom: 95px;
    .joinus {
     display: flex;
     background-color: #2F303A;
- 
-   }
+    }
+    .join-text {
+      margin-top: 0px;
+    }
    
  .social-link:hover,
   .social-link:focus {
@@ -757,7 +768,7 @@ margin-bottom: 95px;
 
  }  .contacts {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     padding-top: 50px;
     padding-bottom: 50px;
     align-content: space-between;
@@ -787,6 +798,11 @@ margin-bottom: 95px;
   .address-item-link {
    list-style: none;
    text-decoration: none
+   
+  }
+
+  .address-item-link {
+  padding-bottom: 9px;
   }
   .join-text {
     color: white;
