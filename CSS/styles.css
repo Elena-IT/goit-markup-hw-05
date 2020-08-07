@@ -657,7 +657,7 @@ fill: #2196f3;}
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 95px;
+  /*margin-bottom: 95px;*/
   }
   .products-list:last-child {
     margin-right: 0;
@@ -925,4 +925,14 @@ position: absolute;
 .product-text:focus {
   background: rgba(33, 150, 243, 0.9)
 }
+.product-link-headers {
+  padding-top: 20px;
+  padding-right: 23px;
+  padding-bottom: 19px;
+  padding-left: 23px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 
