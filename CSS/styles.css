@@ -356,9 +356,7 @@ margin-bottom: 20px;}
   .image-wrapper{
     position: relative;
   }
-  .activity-subh-r {
-    display: block;
-  }
+
 
   .about-us-sect {
     list-style: none;
@@ -405,6 +403,9 @@ margin-bottom: 20px;}
   letter-spacing: 0.03em;
   color: #212121;
 }
+.activity-wrapper {
+  position: relative;
+}
  .activity-list-item {
   list-style: none;
   margin-top: 48px;
@@ -429,12 +430,13 @@ background-image: linear-gradient(
 /*.acivityy-wrapper {
   position: relative;
 }
-.activity-list-item-image {
-  display: block;
-}*/
+*/
+   .activity-list-item-image {
+    display: block;
+  }
 
 .activity-subh-r {
-  /*position: absolute;*/
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -448,18 +450,17 @@ background-image: linear-gradient(
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-  
-}
+  }
 
-  .activity-subh-r {
+/*  .activity-subh-r {
 width: 370px;
 left: 215px;
 top: 1435px;
 background-color: rgba(47, 48, 58, 0.8);
 text-align: center;
 
-  }
- 
+  }*/
+
  .team-section-container {
     max-width: 1200px;
     justify-content: space-between;
