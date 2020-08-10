@@ -709,10 +709,10 @@ border-radius: 4px;*/
     margin-right: 0;
   }
   .product-header {
-    padding-left: 20px;
+    margin-left: 24px;
   }
   .product-subheader {
-    padding-left: 20px;
+    margin-left: 20px;
   }
   /*.contacts-section {
    background-color: #2F303A;
@@ -927,12 +927,12 @@ position: absolute;
   background: rgba(33, 150, 243, 0.9)
 }
 .product-link-headers {
-  padding-top: 20px;
-  padding-right: 23px;
-  padding-bottom: 19px;
-  padding-left: 23px;
+  /*padding-top: 20px;*/
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
   border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  /*border-bottom: 1px solid #eeeeee;*/
   border-left: 1px solid #eeeeee;
 }
 
