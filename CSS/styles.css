@@ -738,10 +738,10 @@ border-radius: 4px;*/
     margin-right: 0;
   }
   .product-header {
-    margin-left: 24px;
+    padding-left: 24px;
   }
   .product-subheader {
-    margin-left: 20px;
+    padding-left: 24px;
   }
   /*.contacts-section {
    background-color: #2F303A;
