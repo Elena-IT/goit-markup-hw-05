@@ -857,9 +857,19 @@ margin-bottom: 95px;
   padding-bottom: 9px;
   }
   .join-text {
-    color: white;
-    font-weight: bold;
     padding-left: 12px;
+width: 145px;
+height: 16px;
+left: 515px;
+top: 2743px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
   }
   
   .pro-button:hover,
