@@ -553,7 +553,10 @@ margin-bottom: 95px;
     height: 44px;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
  }
+ .social-list_link-item {
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   .social-link:hover,
   .social-link:focus {
   color: #2196f3
@@ -571,10 +574,12 @@ margin-bottom: 95px;
   
 .social-list_link-item {
   fill: #afb1b8;
+
 }
 .social-list_link-item:hover, 
 .social-list_link-item-svg {
   fill: white;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list_link-item:hover .social-list_link-item-svg {
   fill: #2196F3;
